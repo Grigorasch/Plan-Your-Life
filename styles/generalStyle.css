@@ -74,6 +74,10 @@
 .button-color_light-blue:active {
   background: #b2cdff;
 }
+.button-color_blue {
+  background: #4C85FF;
+  color: #ffffff;
+}
 
 .gap_XXXXII {
   gap: 42px;
