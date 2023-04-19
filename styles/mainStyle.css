@@ -37,3 +37,10 @@
 .productivity__play-icon {
   width: 52px;
 }
+
+.customers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 145px;
+}
