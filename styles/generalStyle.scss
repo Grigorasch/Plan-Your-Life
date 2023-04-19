@@ -1,0 +1,120 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0 auto;
+    width: 1206px;
+    height: 80px;
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+    }
+
+    &__logo {
+        width: 26px;
+    }
+}
+
+.links {
+    display: flex;
+
+    &__item {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.05em;
+        text-transform: capitalize;
+        color: #697ca6;
+        text-shadow: 0px 0px 5px #e6e6e6;
+
+        &:hover {
+            color: #5e81fe;
+        }
+    }
+
+    &__image {
+        transition: 0.3s;
+
+        &:hover {
+            filter: url("data:image/svg+xml;utf8,<svg version='1.1' baseProfile='full' xmlns='http://www.w3.org/2000/svg'><filter id='makeMeBlue'><feColorMatrix in='SourceGraphic' type='matrix' values='0 0 0 0 0.38 0 0 0 0 0.533 0 0 0 0 1 0 0 0 1 0'/></filter></svg>#makeMeBlue");
+        }
+    }
+}
+
+.button {
+    padding: 13px 15px;
+    border-radius: 2px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.footer {
+    padding-top: 75px;
+    height: 287px;
+    border-top: 1px solid #d8e3fe;
+
+    &__description {
+        position: relative;
+        left: -400px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.05em;
+        text-transform: capitalize;
+        color: #aeb8d0;
+    }
+}
+
+
+/***********************************************/
+/***********************************************/
+/***********************************************/
+//Модификаторы
+.button {
+    &-color {
+        &_light-blue {
+            background: #d2e1ff;
+            color: #3a79ff;
+            border: none;
+
+            &:hover {
+                background: #c6d9ff;
+            }
+
+            &:active {
+                background: #b2cdff;
+            }
+        }
+    }
+}
+
+.gap {
+    &_XXXXII {
+        gap: 42px;
+    }
+
+    &_XXXIV {
+        gap: 34px;
+    }
+}
+
+.margin {
+    &-right {
+        &_XXXXIV {
+            margin-right: 44px;
+        }
+
+        &_LXXIII {
+            margin-right: 73px;
+        }
+    }
+
+    &-bottom {
+        &_X {
+            margin-bottom: 10px;
+        }
+    }
+}
