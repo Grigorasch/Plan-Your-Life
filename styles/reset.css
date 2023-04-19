@@ -29,6 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+    font-family: 'Quicksand', sans-serif;
 	line-height: 1;
 }
 ol, ul {
@@ -55,6 +56,7 @@ a {
     text-decoration: none;
     font: inherit;
     color: inherit;
+    transition: 0.3s;
 }
 
 button {

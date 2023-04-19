@@ -1,0 +1,29 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 1206px;
+  height: 80px;
+}
+.navigation__wrapper {
+  display: flex;
+  align-items: center;
+}
+.navigation__home {
+  margin-right: 73px;
+}
+.navigation__logo {
+  width: 26px;
+}
+
+.links {
+  display: flex;
+}
+
+.gap_XXXXII {
+  gap: 42px;
+}
+.gap_XXXIV {
+  gap: 34px;
+}
