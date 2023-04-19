@@ -44,9 +44,25 @@
   line-height: 16px;
 }
 
+.footer {
+  padding-top: 75px;
+  height: 287px;
+  border-top: 1px solid #d8e3fe;
+}
+.footer__description {
+  position: relative;
+  left: -400px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #aeb8d0;
+}
+
 .button-color_light-blue {
-  background: #D2E1FF;
-  color: #3A79FF;
+  background: #d2e1ff;
+  color: #3a79ff;
   border: none;
 }
 .button-color_light-blue:hover {
@@ -68,4 +84,7 @@
 }
 .margin-right_LXXIII {
   margin-right: 73px;
+}
+.margin-bottom_X {
+  margin-bottom: 10px;
 }

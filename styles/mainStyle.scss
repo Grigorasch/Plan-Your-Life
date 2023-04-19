@@ -51,12 +51,29 @@
     line-height: 16px;
 }
 
+.footer {
+    padding-top: 75px;
+    height: 287px;
+    border-top: 1px solid #d8e3fe;
+
+    &__description {
+        position: relative;
+        left: -400px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.05em;
+        text-transform: capitalize;
+        color: #aeb8d0;
+    }
+}
+
 //Модификаторы
 .button {
     &-color {
         &_light-blue {
-            background: #D2E1FF;
-            color: #3A79FF;
+            background: #d2e1ff;
+            color: #3a79ff;
             border: none;
 
             &:hover {
@@ -88,6 +105,12 @@
 
         &_LXXIII {
             margin-right: 73px;
+        }
+    }
+
+    &-bottom {
+        &_X {
+            margin-bottom: 10px;
         }
     }
 }
