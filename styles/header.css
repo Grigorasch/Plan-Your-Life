@@ -10,9 +10,6 @@
   display: flex;
   align-items: center;
 }
-.navigation__home {
-  margin-right: 73px;
-}
 .navigation__logo {
   width: 26px;
 }
@@ -20,10 +17,55 @@
 .links {
   display: flex;
 }
+.links__item {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #697ca6;
+  text-shadow: 0px 0px 5px #e6e6e6;
+}
+.links__item:hover {
+  color: #5e81fe;
+}
+.links__image {
+  transition: 0.3s;
+}
+.links__image:hover {
+  filter: url("data:image/svg+xml;utf8,<svg version='1.1' baseProfile='full' xmlns='http://www.w3.org/2000/svg'><filter id='makeMeBlue'><feColorMatrix in='SourceGraphic' type='matrix' values='0 0 0 0 0.38 0 0 0 0 0.533 0 0 0 0 1 0 0 0 1 0'/></filter></svg>#makeMeBlue");
+}
+
+.button {
+  padding: 13px 15px;
+  border-radius: 2px;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.button-color_light-blue {
+  background: #D2E1FF;
+  color: #3A79FF;
+  border: none;
+}
+.button-color_light-blue:hover {
+  background: #c6d9ff;
+}
+.button-color_light-blue:active {
+  background: #b2cdff;
+}
 
 .gap_XXXXII {
   gap: 42px;
 }
 .gap_XXXIV {
   gap: 34px;
+}
+
+.margin-right_XXXXIV {
+  margin-right: 44px;
+}
+.margin-right_LXXIII {
+  margin-right: 73px;
 }
