@@ -7,6 +7,7 @@
   text-align: inherit;
   color: #3d4f9f;
 }
+
 .section__heading {
   font-weight: 300;
   font-size: 48px;
@@ -14,9 +15,11 @@
   text-align: inherit;
   color: #3d4f9f;
 }
+
 .section__heading-selection {
   font-weight: 500;
 }
+
 .section__description {
   font-weight: 400;
   font-size: 15px;
@@ -30,17 +33,21 @@
   padding-top: 92px;
   height: 570px;
   text-align: center;
-  background: url(../images/backgrounds/productivity.svg) bottom no-repeat;
+  background: url(../images/backgrounds/productivity.svg) bottom/auto auto no-repeat;
 }
+
 .productivity__play-icon {
   width: 52px;
 }
+
 .productivity__supheading {
   margin-bottom: 16px;
 }
+
 .productivity__heading {
   margin-bottom: 28px;
 }
+
 .productivity__description {
   margin: 0 auto 20px;
   width: 500px;
@@ -59,33 +66,40 @@
   height: 776px;
   background: #f5f8ff;
 }
+
 .app__container {
   display: flex;
   margin: 0 auto;
   width: 900px;
 }
+
 .app__supheading {
   margin: 38px 0 27px;
 }
+
 .app__heading {
   margin-bottom: 27px;
   font-size: 36px;
   line-height: 45px;
 }
+
 .app__description {
   margin-bottom: 47px;
   margin-right: 55px;
   width: 413px;
 }
+
 .app__wrapper {
   display: flex;
   align-content: stretch;
   width: 260px;
   height: 43px;
 }
+
 .app__image {
   width: 653px;
 }
+
 .app__button {
   display: inline-block;
   width: 130px;
@@ -94,6 +108,7 @@
   color: #adb4d2;
   font-weight: 500;
 }
+
 .app__button:hover {
   background: #4c85ff;
   box-shadow: 0px 5px 15px rgba(188, 199, 255, 0.75);
@@ -101,6 +116,7 @@
   color: #ffffff;
   border: 0px solid #4c85ff;
 }
+
 .app__button:active {
   background: #4c85ff;
 }
@@ -110,6 +126,7 @@
   height: 885px;
   text-align: center;
 }
+
 .about__card-wrapper {
   display: flex;
   justify-content: space-between;
@@ -117,6 +134,7 @@
   margin: 0 auto 125px;
   width: 760px;
 }
+
 .about__button-wrapper {
   display: flex;
   justify-content: space-between;
@@ -129,17 +147,20 @@
   width: 140px;
   text-align: center;
 }
+
 .card__images {
   margin-bottom: 33px;
   width: 69px;
   vertical-align: top;
 }
+
 .card__heading {
   font-weight: 700;
   font-size: 14px;
   line-height: 25px;
   color: #4074f8;
 }
+
 .card__description {
   font-weight: 600;
   font-size: 11px;
@@ -152,33 +173,40 @@
   width: 100%;
   height: 342px;
 }
+
 .statistic__wrapper {
   padding-top: 66px;
   width: 50%;
 }
+
 .statistic__wrapper_left-side {
   direction: rtl;
   padding-right: 90px;
   background: linear-gradient(229.32deg, #6888FF 12.77%, #5E80FF 73.11%);
   color: #ffffff;
 }
+
 .statistic__wrapper_right-side {
   padding-left: 90px;
   background: linear-gradient(101.48deg, #E9EFFF 41.56%, #E0E9FF 81.53%);
   color: #5E80FF;
 }
+
 .statistic__content {
   width: 260px;
 }
+
 .statistic__image {
   margin-bottom: 24px;
 }
+
 .statistic__heading {
   font-weight: 400;
   font-size: 48px;
   line-height: 83px;
   letter-spacing: 0.03em;
 }
+
 .statistic__description {
   font-weight: 500;
   font-size: 18px;
