@@ -37,18 +37,20 @@
     &__image {
         transition: 0.3s;
 
-        &:hover {
-            filter: url("data:image/svg+xml;utf8,<svg version='1.1' baseProfile='full' xmlns='http://www.w3.org/2000/svg'><filter id='makeMeBlue'><feColorMatrix in='SourceGraphic' type='matrix' values='0 0 0 0 0.38 0 0 0 0 0.533 0 0 0 0 1 0 0 0 1 0'/></filter></svg>#makeMeBlue");
+        &:hover path {
+            fill: #0051ff;
+            // filter: url("data:image/svg+xml;utf8,<svg version='1.1' baseProfile='full' xmlns='http://www.w3.org/2000/svg'><filter id='makeMeBlue'><feColorMatrix in='SourceGraphic' type='matrix' values='0 0 0 0 0.38 0 0 0 0 0.533 0 0 0 0 1 0 0 0 1 0'/></filter></svg>#makeMeBlue");
         }
     }
 }
 
 .button {
-    padding: 13px 15px;
+    padding: 13px 20px;
     border-radius: 2px;
     font-weight: 700;
     font-size: 13px;
     line-height: 16px;
+    transition: 0.3s;
 }
 
 .footer {
@@ -75,6 +77,19 @@
 //Модификаторы
 .button {
     &-color {
+        &_light-red {
+            background: #FFD7D7;
+            color: #D43F3F;
+            border: none;
+
+            &:hover {
+                background: #febdbd;
+            }
+
+            &:active {
+                background: #ffadad;
+            }
+        }
         &_light-blue {
             background: #d2e1ff;
             color: #3a79ff;
@@ -85,12 +100,20 @@
             }
 
             &:active {
-                background: #b2cdff;
+                background: #a8c5fe;
             }
         }
         &_blue {
             background: #4C85FF;
             color: #ffffff;
+
+            &:hover {
+                background: #427eff;
+            }
+
+            &:active {
+                background: #3e7bff;
+            }
         }
     }
 }
@@ -123,6 +146,12 @@
     &-bottom {
         &_X {
             margin-bottom: 10px;
+        }
+        &_XX {
+            margin-bottom: 20px;
+        }
+        &_XCII {
+            margin-bottom: 92px;    
         }
     }
 }

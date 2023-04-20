@@ -32,16 +32,17 @@
 .links__image {
   transition: 0.3s;
 }
-.links__image:hover {
-  filter: url("data:image/svg+xml;utf8,<svg version='1.1' baseProfile='full' xmlns='http://www.w3.org/2000/svg'><filter id='makeMeBlue'><feColorMatrix in='SourceGraphic' type='matrix' values='0 0 0 0 0.38 0 0 0 0 0.533 0 0 0 0 1 0 0 0 1 0'/></filter></svg>#makeMeBlue");
+.links__image:hover path {
+  fill: #0051ff;
 }
 
 .button {
-  padding: 13px 15px;
+  padding: 13px 20px;
   border-radius: 2px;
   font-weight: 700;
   font-size: 13px;
   line-height: 16px;
+  transition: 0.3s;
 }
 
 .footer {
@@ -63,6 +64,17 @@
 /***********************************************/
 /***********************************************/
 /***********************************************/
+.button-color_light-red {
+  background: #FFD7D7;
+  color: #D43F3F;
+  border: none;
+}
+.button-color_light-red:hover {
+  background: #febdbd;
+}
+.button-color_light-red:active {
+  background: #ffadad;
+}
 .button-color_light-blue {
   background: #d2e1ff;
   color: #3a79ff;
@@ -72,11 +84,17 @@
   background: #c6d9ff;
 }
 .button-color_light-blue:active {
-  background: #b2cdff;
+  background: #a8c5fe;
 }
 .button-color_blue {
   background: #4C85FF;
   color: #ffffff;
+}
+.button-color_blue:hover {
+  background: #427eff;
+}
+.button-color_blue:active {
+  background: #3e7bff;
 }
 
 .gap_XXXXII {
@@ -97,4 +115,10 @@
 }
 .margin-bottom_X {
   margin-bottom: 10px;
+}
+.margin-bottom_XX {
+  margin-bottom: 20px;
+}
+.margin-bottom_XCII {
+  margin-bottom: 92px;
 }
